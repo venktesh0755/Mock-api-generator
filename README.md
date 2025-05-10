@@ -14,7 +14,7 @@ A simple tool to generate a mock API based on a customizable schema template. Th
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/mock-api.git
+git clone https://github.com/venktesh0755/Mock-api-generator.git
 cd mock-api
 ```
 
@@ -30,7 +30,7 @@ npm install
 You can generate a mock API by running the following command:
 
 ```bash
-npx mock-api [schema-path]
+npx faker-api-mock [schema-path]
 ```
 
 If the schema-path argument is not provided, it will look for a schema.json file in the root directory.
@@ -38,7 +38,7 @@ If the schema-path argument is not provided, it will look for a schema.json file
 For example:
 
 ```bash
-npx mock-api ./my-schema.json
+npx faker-api-mock ./my-schema.json
 ```
 This will generate a mock API server at http://localhost:3000 based on the provided schema.json.
 
@@ -114,4 +114,4 @@ This project is licensed under the MIT License.
 
 
 
-
+> ⚠️ **Note:** This is an early version of the project and may lack some features or optimizations. Contributions and suggestions are welcome!
